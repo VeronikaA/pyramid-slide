@@ -1,0 +1,43 @@
+#pyramid {
+            line-height: 10px;
+            font-size: 30px;
+            background-color: #F9F0FF;
+            color: #915A91;
+        }
+        body {
+            text-align: center;
+            background-color: #F5F0F4;
+        }
+        #main {
+          border: 2px solid #69003E;
+          height: 100px;
+          margin-top: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          background-color: #EAD6FE;
+        }
+        #height {
+            color: #ABABE0;
+            font-weight: 800;
+            border-radius: 100%;
+        }
+        #pyramid {
+            border: 5px solid purple;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        #symbol {
+            border-radius: 5px;
+            weight: 5px;
+        }
+        header {
+            background-color: #A791D3;
+            color: #ECF0F1;
+            font-family: Courier New; 
+            height: 70px;
+        }
+        #rangeHeight{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    
