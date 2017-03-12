@@ -31,7 +31,7 @@ function drawPyramid(height, symbol) {
         var rowStr = "";
         for (var i = 0; i < numSpaces; i++) {
             if (symbol == "@")
-                var spaceChar = "\xa0\xa0\xa0";  // code for non-breaking space
+                var spaceChar = "\xa0\xa0\xa0";  // code for non-breaking space,space in a line that can't be broken by word wrap
             else {
                 spaceChar = "\xa0\xa0";
             }
