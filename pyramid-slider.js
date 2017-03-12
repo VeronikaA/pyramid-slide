@@ -3,13 +3,13 @@ function findHeightSymbol() {
     // figure out the height the user typed
     heightStr = document.getElementById('height').value;
 
-    // here we convert the string to an int
+    // convert the string to an int
     height = parseInt(heightStr);
 
     //set the range counter equal to the height
     document.getElementById("rangeHeight").innerHTML = height;
 
-    //get the selceted symbol
+    //get the symbol that was typed as input
     var symbol = document.getElementById("symbol").value;
 
     // draw the pyramid with the given height and selected symbol
